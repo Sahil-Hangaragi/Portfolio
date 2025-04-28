@@ -44,7 +44,6 @@ export default function About() {
               {act}{" "}
               {act.includes("Instagram") ? (
                 <a
-                  href={aboutData.creative.Link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-blue-600 hover:underline font-medium"
